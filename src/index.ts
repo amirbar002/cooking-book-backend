@@ -24,8 +24,8 @@ import bodyParser from "body-parser";
       res.status(400).send("Resource not found!");
     });
 
-    app.listen(+process.env.APP_PORT, () =>
-      console.log("Server is listening on port " + process.env.APP_PORT)
+    app.listen(+8080, () =>
+      console.log("Server is listening on port " + 8080)
     );
   } catch (error) {
     console.error(error);
